@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+/**
+ * @author MSI Laptop
+ *
+ */
+module testGraphic {
+	requires java.desktop;
+//	requires com.twelvemonkeys.common.image;
+	requires TimingFramework;
+	requires java.sql;
+	requires java.xml;
+	requires poi.ooxml;
+	requires poi;
+	requires java.mail;
+	requires junit;
+	requires org.junit.jupiter.api;
+	exports DAO;
+
+}
